@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { CountContext } from "../contexts/count/index";
+import { CountContext } from "../../contexts/count/index";
 
 const CountLabel = () => {
   // 클래스형 컴포넌트에서는 Consumer 사용, 함수형에서는 useContext 훅 사용
