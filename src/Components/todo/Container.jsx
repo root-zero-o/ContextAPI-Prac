@@ -6,7 +6,7 @@ const Container = () => {
   const { todolist } = useContext(TodoContext);
   return (
     <div>
-      {todolist[0].map((v, i) => {
+      {todolist[0]?.map((v, i) => {
         return (
           <div key={i}>
             <span>{v.id}</span>
